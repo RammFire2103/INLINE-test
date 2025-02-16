@@ -1,7 +1,6 @@
 <template>
   <div class="list__header">
     <slot></slot>
-    <!-- Заголовок передаётся через slot -->
   </div>
 </template>
 

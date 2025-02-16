@@ -1,10 +1,8 @@
 <template>
   <div class="list">
     <slot name="header"></slot>
-    <!-- Заголовок списка -->
     <div class="list__items">
       <slot></slot>
-      <!-- Элементы списка -->
     </div>
   </div>
 </template>

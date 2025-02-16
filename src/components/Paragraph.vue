@@ -7,12 +7,9 @@
   </p>
 </template>
 
-<script setup>
-// Здесь можно добавлять логику или использовать props
-</script>
+<script setup></script>
 
 <style scoped>
-/* Основные стили для абзаца */
 .paragraph {
   font-size: 16px;
   line-height: 1.5;

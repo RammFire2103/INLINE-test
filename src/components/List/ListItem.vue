@@ -7,8 +7,8 @@
 
 <script setup>
 defineProps({
-  name: String, // Имя поля
-  value: String, // Значение поля
+  name: String,
+  value: String,
 });
 </script>
 

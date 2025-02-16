@@ -1,14 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-// Импорт страниц
 import Description from "../pages/description.vue";
 import Reviews from "../pages/Reviews.vue";
 import FromWhere from "../pages/FromWhere.vue";
 
-// Настройка маршрутов
 const routes = [
   {
-    path: "/description",
+    path: "/",
     name: "description",
     component: Description,
   },
@@ -24,9 +22,8 @@ const routes = [
   },
 ];
 
-// Создание экземпляра маршрутизатора
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory("/INLINE-test/"),
   routes,
 });
 

@@ -3,7 +3,7 @@
     <nav class="header__nav">
       <router-link
         class="header__link"
-        to="/description"
+        to="/"
         active-class="header__link--active"
         >Описание</router-link
       >
@@ -57,15 +57,15 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0; /* Опускаем под header */
+  bottom: 0;
   width: 100%;
   height: 5px;
-  background-color: #28a745; /* Зеленый цвет */
+  background-color: #28a745;
   border-radius: 2px;
 }
 
 .header__link:hover {
-  color: #007bff; /* Пример для hover эффекта */
+  color: #007bff;
 }
 
 @media screen and (width <= 510px) {

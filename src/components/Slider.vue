@@ -57,13 +57,12 @@
 
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/swiper-bundle.css"; // Убедись, что импорт верный
+import "swiper/swiper-bundle.css";
 
 import Card from "./Card/Card.vue";
 </script>
 
 <style scoped>
-/* Стили для слайдера */
 .slider {
   width: 100%;
 }
