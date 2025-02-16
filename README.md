@@ -1,5 +1,19 @@
-# Vue 3 + Vite
+## Требования
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Для запуска проекта на своем компьютере необходимо наличие следующих программ:
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- [Node.js](https://nodejs.org/en/) версии 16 и выше.
+- [npm](https://www.npmjs.com/) для установки зависимостей.
+
+## Установка и запуск проекта
+
+1. **Клонирование репозитория:**
+
+   Сначала клонируйте репозиторий на свой локальный компьютер:
+
+   ```bash
+   git clone https://github.com/rammfire2103/INLINE-test.git
+   cd INLINE-test
+   npm install
+   npm run dev
+
